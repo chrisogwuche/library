@@ -38,8 +38,8 @@ public class shelve {
             list.add(data);
             writer.writeAll(list);
             writer.close();
-        } catch (IOException var7) {
-            var7.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
     }
